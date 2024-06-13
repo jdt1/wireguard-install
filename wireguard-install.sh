@@ -331,7 +331,7 @@ DNS = "1.1.1.1","1.0.0.1"
 PublicKey = ${SERVER_PUB_KEY}
 PresharedKey = ${CLIENT_PRE_SHARED_KEY}
 Endpoint = ${ENDPOINT}
-AllowedIPs = ${ALLOWED_IPS}" >"${HOME_DIR}/${SERVER_WG_NIC}-client-${CLIENT_NAME}.conf"
+AllowedIPs = ${ALLOWED_IPS}" >"${HOME_DIR}/confs/${SERVER_WG_NIC}-client-${CLIENT_NAME}.conf"
     
     echo -e "\n### Client ${CLIENT_NAME}
 [Peer]
